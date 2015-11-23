@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="test2(failed)">
+    <classes>
+      <class name="NGCase.Annotate">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- NGCase.Annotate -->
+      <class name="NGCase.AnotherTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- NGCase.AnotherTest -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
